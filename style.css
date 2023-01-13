@@ -31,6 +31,22 @@ section#tela{
     width: 311px;
     height: 620px;
 }
+
+#frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: url('imagens/frame-iphone.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 311px;
+    height: 620px;
+}
+::-webkit-scrollbar{
+    
+}
+
 img{
     width: 50px;
     border-radius: 50%;
@@ -49,3 +65,5 @@ section#redes li{
     text-align: right;
     padding: 10px;  
 }
+
+
